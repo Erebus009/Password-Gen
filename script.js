@@ -140,7 +140,7 @@ function generatePassword() {
   var special = confirm("Do you want to add special chars?");
 // if all canceled it starts the function again. 
   if (!numbers && !lower && !upper && !special) {
-    alert("You must at least choose type for your password.");
+    alert("You must at least choose atleast /n one of the types for your password.");
     return generatePassword();
   }
 
