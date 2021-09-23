@@ -128,7 +128,7 @@ function generatePassword() {
     return generatePassword();
   }
 
-  // if user does not enter a vlid it repeats if it is valid from 8 to 126 it moves on. 
+  // if user does not enter a valid input it repeats function/ if it is valid from 8 to 126 it moves on. 
   if (parseInt(passLength) <= 7 || passLength >= 128) {
     alert("Please enter a value between 8 and 126.");
     return generatePassword();
@@ -145,22 +145,22 @@ function generatePassword() {
   }
 
   // if and else statements for confirms to add to valid array on true and if else does nothing. 
-  if (numbers) {
+  if (numbers === true) {
     valid = valid.concat(numericCharacters);
   } else {
   }
 
-  if (lower) {
+  if (lower === true) {
     valid = valid.concat(lowerCasedCharacters);
   } else {
   }
 
-  if (upper) {
+  if (upper === true) {
     valid = valid.concat(upperCasedCharacters);
   } else {
   }
 
-  if (special) {
+  if (special === true) {
     valid = valid.concat(specialCharacters);
   } else {
   }
