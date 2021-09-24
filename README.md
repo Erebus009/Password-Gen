@@ -3,7 +3,7 @@
 <h1> problems faced</h1>
 <ul> 
 
-<li> Fidning out how to use math.floor and math random in it's intended purpose.</li>
+<li> Finding out how to use math.floor and math random in it's intended purpose.</li>
 
 <li> Using queryselector to write an outcome into the html document from the end results of a function. </li>
 
